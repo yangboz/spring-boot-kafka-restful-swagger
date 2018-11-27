@@ -30,5 +30,11 @@ docker exec  docker-name-kafka usr/bin/kafka-console-consumer --bootstrap-server
 
 https://www.e4developer.com/2018/05/21/getting-started-with-kafka-in-spring-boot/
 
+https://github.com/simplesteph/kafka-stack-docker-compose
+
 https://docs.confluent.io/current/installation/docker/docs/installation/single-node-client.html
+
+https://www.e4developer.com/2018/02/18/getting-started-with-spring-cloud-data-flow/
+
+https://spring.io/blog/2018/04/19/kafka-streams-and-spring-cloud-stream
 
