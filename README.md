@@ -32,3 +32,9 @@ https://www.e4developer.com/2018/05/21/getting-started-with-kafka-in-spring-boot
 
 https://docs.confluent.io/current/installation/docker/docs/installation/single-node-client.html
 
+https://github.com/gmessner/gitlab4j-api#eventsapi
+
+https://github.com/marvin-we/steem-java-api-wrapper
+
+
+

@@ -94,6 +94,18 @@
 			<artifactId>springfox-spring-web</artifactId>
 			<version>2.4.0</version>
 		</dependency>
+		<!-- GitLab -->
+		<dependency>
+			<groupId>org.gitlab4j</groupId>
+			<artifactId>gitlab4j-api</artifactId>
+			<version>4.8.56</version>
+		</dependency>
+		<!-- Steem -->
+		<dependency>
+			<groupId>com.github.muksihs</groupId>
+			<artifactId>steemj-core</artifactId>
+			<version>0.5.0-SNAPSHOT</version>
+		</dependency>
 
 	</dependencies>
 

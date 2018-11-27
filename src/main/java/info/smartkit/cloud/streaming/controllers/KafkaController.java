@@ -15,7 +15,7 @@ import javax.validation.Valid;
 
 @RestController
 // @see: https://www.e4developer.com/2018/05/21/getting-started-with-kafka-in-spring-boot/
-@RequestMapping(value = "v1/cloud/stream")
+@RequestMapping(value = "v1/cloud/stream/kafka")
 public class KafkaController {
     private static org.apache.logging.log4j.Logger LOG = LogManager.getLogger(KafkaController.class);
 
