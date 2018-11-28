@@ -42,3 +42,5 @@ https://github.com/gmessner/gitlab4j-api#eventsapi
 
 https://github.com/marvin-we/steem-java-api-wrapper
 
+https://steemit.com/utopian-io/@dez1337/steemj-v0-4-3-is-available-now-use-the-steem-api-in-your-java-project
+
