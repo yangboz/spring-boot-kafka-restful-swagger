@@ -1,5 +1,8 @@
 package info.smartkit.cloud.streaming.controllers;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.gson.GsonBuilder;
 import info.smartkit.cloud.streaming.dto.JsonString;
 import io.swagger.annotations.ApiOperation;
 import org.gitlab4j.api.GitLabApi;
@@ -39,14 +42,23 @@ public class GitlabController {
 //	@ApiImplicitParams({@ApiImplicitParam(name="Authorization", value="Authorization DESCRIPTION")})
     public @ResponseBody
     JsonString events() throws GitLabApiException {
-        GitLabApi gitLabApi = new GitLabApi("http://your.gitlab.server.com", "YOUR_PRIVATE_TOKEN");
+        //@see: https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html
+        GitLabApi gitLabApi = new GitLabApi("https://gitlab.com", "P2-gzAw_edSDuZbV4JVu");
         //Get a list of Events for the authenticated user
         Date after = new Date(0); // After Epoch
         Date before = new Date(); // Before now
         List<org.gitlab4j.api.models.Event> events = gitLabApi.getEventsApi().getAuthenticatedUserEvents(null, null, before, after, DESC);
         // Iterate through the pages and print out the name and description
-        LOGGER.info("GitLabApiEvents:"+events.toString());
-        return new JsonString(events.toString());
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonEvents = null;
+        try {
+            jsonEvents = mapper.writeValueAsString(events);
+            LOGGER.info("GitLabApiEvents:"+jsonEvents);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+
+        return new JsonString(jsonEvents);
     }
 
 }
