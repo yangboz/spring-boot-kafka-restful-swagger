@@ -26,6 +26,10 @@ docker exec  docker-name-kafka usr/bin/kafka-console-consumer --bootstrap-server
 --topic test --from-beginning --max-messages 42
 ```
 
+## Gitlab events example
+```
+```
+
 ## References
 
 https://www.e4developer.com/2018/05/21/getting-started-with-kafka-in-spring-boot/
