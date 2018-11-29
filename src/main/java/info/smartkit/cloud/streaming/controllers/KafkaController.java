@@ -37,4 +37,9 @@ public class KafkaController {
         kafkaTemplate.send(kafkaMessage.getTopic(), kafkaMessage.getPayload());
         LOG.info("Message: "+kafkaMessage.getPayload()+" sent to topic: "+kafkaMessage.getTopic());
     }
+
+    @KafkaListener(topics = "topic1")
+    public void receiveTopic1(ConsumerRecord<?, ?> consumerRecord) {
+        System.out.println("Receiver on topic1: "+consumerRecord.toString());
+    }
 }
