@@ -34,7 +34,7 @@ https://raw.githubusercontent.com/yangboz/spring-boot-kafka-restful-swagger/mast
 
 #1.Customize define Events provider, Incentive provider in Dashboard.
 
-#2.Spring Data flow/Steam version
+#2.Spring Data flow/Stream version
 
 ## References
 
