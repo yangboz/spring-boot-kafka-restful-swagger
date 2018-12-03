@@ -27,8 +27,14 @@ docker exec  docker-name-kafka usr/bin/kafka-console-consumer --bootstrap-server
 ```
 
 ## Gitlab events example
-```
-```
+
+https://raw.githubusercontent.com/yangboz/spring-boot-kafka-restful-swagger/master/src/main/resources/GitlabEvents.json
+
+### TODO
+
+#1.Customize define Events provider, Incentive provider in Dashboard.
+
+#2.Spring Data flow/Steam version
 
 ## References
 
