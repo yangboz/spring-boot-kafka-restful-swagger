@@ -8,7 +8,6 @@ import eu.bittrade.libs.steemj.exceptions.SteemInvalidTransactionException;
 import eu.bittrade.libs.steemj.exceptions.SteemResponseException;
 import info.smartkit.cloud.streaming.dto.SteemPost;
 import org.apache.commons.lang3.tuple.ImmutablePair;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
