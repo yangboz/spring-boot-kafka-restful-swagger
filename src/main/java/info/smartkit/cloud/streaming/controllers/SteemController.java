@@ -6,29 +6,26 @@ import eu.bittrade.libs.steemj.base.models.Asset;
 import eu.bittrade.libs.steemj.base.models.Permlink;
 import eu.bittrade.libs.steemj.base.models.operations.CommentOperation;
 import eu.bittrade.libs.steemj.base.models.operations.TransferOperation;
-import eu.bittrade.libs.steemj.configuration.SteemJConfig;
 import eu.bittrade.libs.steemj.enums.AssetSymbolType;
-import eu.bittrade.libs.steemj.enums.PrivateKeyType;
 import eu.bittrade.libs.steemj.exceptions.SteemCommunicationException;
 import eu.bittrade.libs.steemj.exceptions.SteemInvalidTransactionException;
 import eu.bittrade.libs.steemj.exceptions.SteemResponseException;
 import info.smartkit.cloud.streaming.dto.*;
 import info.smartkit.cloud.streaming.services.SteemService;
+import info.smartkit.cloud.streaming.utils.ServerResponseGitlabEvents;
+import info.smartkit.cloud.streaming.utils.ServerResponseSteemPost;
+import info.smartkit.cloud.streaming.utils.TimedResponse;
 import io.swagger.annotations.ApiOperation;
-import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.apache.logging.log4j.LogManager;
-import org.gitlab4j.api.GitLabApi;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.gitlab4j.api.GitLabApiException;
+import org.gitlab4j.api.models.Event;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.math.BigDecimal;
-import java.util.AbstractList;
-import java.util.ArrayList;
+import javax.validation.constraints.NotNull;
 import java.util.List;
-import java.util.Map;
+import java.util.concurrent.CompletableFuture;
 
 @RestController
 // @see: https://github.com/marvin-we/steem-java-api-wrapper
@@ -45,13 +42,13 @@ public class SteemController {
 //	@ApiImplicitParams({@ApiImplicitParam(name="Authorization", value="Authorization DESCRIPTION")})
     public @ResponseBody
     JsonString info() throws SteemResponseException, SteemCommunicationException {
-        return new JsonString(steemService.getSteemJ().getHardforkVersion().toString());
+        return new JsonString(steemService.getSteemJ().toString());
     }
-    @RequestMapping(method = RequestMethod.GET, value = "/config")
+    @RequestMapping(method = RequestMethod.POST, value = "/config")
     @ApiOperation(value = "Response a string describing Steem config.")
 //	@ApiImplicitParams({@ApiImplicitParam(name="Authorization", value="Authorization DESCRIPTION")})
     public @ResponseBody
-    JsonString config(String accountName
+    JsonString config(@RequestBody @NotNull @Valid String accountName
 //            List<ImmutablePair<PrivateKeyType, String>> privateKeys
     ) throws SteemResponseException, SteemCommunicationException {
 //   LOG.info("SteemJ config keys:"+privateKeys.toString());
@@ -59,20 +56,33 @@ public class SteemController {
         return new JsonString(steemJ.toString());
     }
 
+//    @RequestMapping(value = "/post", method = RequestMethod.POST)
+//    @ApiOperation(httpMethod = "POST", value = "Response a string describing if the Steem posting is successfully triggled.")
+//    public JsonString post(@RequestBody @Valid SteemPost steemPost) throws SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException, ExecutionException, InterruptedException {
+//
+//        CompletableFuture<CommentOperation> postResultAync = steemService.post(steemPost);
+//        // Let the default account ("steemj") resteem a post".
+////        steemJ.reblog(new AccountName("dez1337"),
+//        return new JsonString(postResultAync.get().getPermlink().toString());
+//    }
+
     @RequestMapping(value = "/post", method = RequestMethod.POST)
     @ApiOperation(httpMethod = "POST", value = "Response a string describing if the Steem posting is successfully triggled.")
-    public JsonString post(@RequestBody @Valid SteemPost steemPost) throws SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException {
-
-        CommentOperation postResult = steemService.post(steemPost);
-        // Let the default account ("steemj") resteem a post".
-//        steemJ.reblog(new AccountName("dez1337"),
-        /*
-         * Delete the newly created post.
-         */
-//        steemJ.deletePostOrComment(myNewPost.getParentPermlink());
-        return new JsonString(postResult.getPermlink().getLink().toString());
-
+//	@ApiImplicitParams({@ApiImplicitParam(name="Authorization", value="Authorization DESCRIPTION")})
+    public @ResponseBody
+    CompletableFuture<TimedResponse<CommentOperation>> post(@RequestBody @Valid SteemPost steemPost) throws GitLabApiException, SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException, InterruptedException {
+        long start = System.currentTimeMillis();
+        ServerResponseSteemPost response = new ServerResponseSteemPost(Thread.currentThread().getName());
+        return steemService.post(steemPost)
+                .thenApply(resp -> {
+                    response.setData(resp);
+                    response.setTimeMs(System.currentTimeMillis() - start);
+                    response.setCompletingThread(Thread.currentThread().getName());
+                    return response;
+                });
+//        CompletableFuture.allOf(gitLabConfig,steemJConfig).join();
     }
+
     @RequestMapping(value = "/vote", method = RequestMethod.POST)
     @ApiOperation(httpMethod = "POST", value = "Response a string describing if the Steem vote is successfully triggled.")
     public void vote(@RequestBody @Valid SteemVote steemVote) throws SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException {

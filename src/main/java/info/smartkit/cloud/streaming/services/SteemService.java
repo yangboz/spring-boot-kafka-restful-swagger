@@ -8,11 +8,13 @@ import eu.bittrade.libs.steemj.exceptions.SteemInvalidTransactionException;
 import eu.bittrade.libs.steemj.exceptions.SteemResponseException;
 import info.smartkit.cloud.streaming.dto.SteemPost;
 import org.apache.commons.lang3.tuple.ImmutablePair;
+import org.gitlab4j.api.GitLabApi;
 
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 public interface SteemService {
     SteemJ config(String accountName, List<ImmutablePair<PrivateKeyType, String>> privateKeys) throws SteemResponseException, SteemCommunicationException;
-    CommentOperation post(SteemPost steemPost) throws SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException;
-    SteemJ getSteemJ();
+    CompletableFuture<CommentOperation> post(SteemPost steemPost) throws SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException;
+    SteemJ getSteemJ() throws SteemResponseException, SteemCommunicationException;
 }

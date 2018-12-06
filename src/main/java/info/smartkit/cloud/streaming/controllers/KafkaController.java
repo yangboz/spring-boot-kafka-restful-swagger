@@ -3,6 +3,7 @@ package info.smartkit.cloud.streaming.controllers;
 import info.smartkit.cloud.streaming.dto.JsonObject;
 import info.smartkit.cloud.streaming.dto.JsonString;
 import info.smartkit.cloud.streaming.dto.KafkaMessage;
+import info.smartkit.cloud.streaming.services.KafkaService;
 import io.swagger.annotations.ApiOperation;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.logging.log4j.LogManager;
@@ -27,14 +28,17 @@ public class KafkaController {
         return new JsonString("v0.0.1");
     }
 
+//    @Autowired
+//    private KafkaTemplate<String, String> kafkaTemplate;
     @Autowired
-    private KafkaTemplate<String, String> kafkaTemplate;
+    KafkaService kafkaService;
 
     @RequestMapping(value = "/produce", method = RequestMethod.POST)
     @ApiOperation(httpMethod = "POST", value = "Response a string describing if the access_token related user profile is successfully received.")
     public void produce(@RequestBody @Valid KafkaMessage kafkaMessage) {
-        //
-        kafkaTemplate.send(kafkaMessage.getTopic(), kafkaMessage.getPayload());
+//        //
+//        kafkaTemplate.send(kafkaMessage.getTopic(), kafkaMessage.getPayload());
+        kafkaService.send(kafkaMessage);
         LOG.info("Message: "+kafkaMessage.getPayload()+" sent to topic: "+kafkaMessage.getTopic());
     }
 

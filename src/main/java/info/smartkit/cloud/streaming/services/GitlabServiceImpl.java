@@ -23,10 +23,11 @@ public class GitlabServiceImpl implements GitlabService {
     private GitLabApi gitLabApi;
 
     @Override
-    @Async("asyncExecutor")
-    public CompletableFuture<GitLabApi> config(String uri, String privateToken) {
+//    @Async("asyncExecutor")
+    public GitLabApi config(String uri, String privateToken) {
         this.gitLabApi = new GitLabApi("https://gitlab.com", "P2-gzAw_edSDuZbV4JVu");
-        return CompletableFuture.completedFuture(gitLabApi);
+//        return CompletableFuture.completedFuture(gitLabApi);
+        return gitLabApi;
     }
 
 

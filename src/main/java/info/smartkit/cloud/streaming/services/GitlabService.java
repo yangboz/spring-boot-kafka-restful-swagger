@@ -9,6 +9,6 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public interface GitlabService {
-    CompletableFuture<GitLabApi> config(String uri, String privateToken);
+    GitLabApi config(String uri, String privateToken);
     CompletableFuture<List<Event>> getEvents() throws InterruptedException, GitLabApiException;
 }
