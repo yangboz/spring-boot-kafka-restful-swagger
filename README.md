@@ -36,6 +36,19 @@ https://raw.githubusercontent.com/yangboz/spring-boot-kafka-restful-swagger/mast
 
 #2.Spring Data flow/Stream version
 
+## Demo
+
+Docker run:
+
+```
+docker run -p 8096:8080 smartkit/restful-gitlab-kafka-steem:0.1
+```
+
+Swagger UI for RESTful APIs:
+
+```
+http://localhost:8096/swagger-ui.html
+```
 ## References
 
 https://www.e4developer.com/2018/05/21/getting-started-with-kafka-in-spring-boot/
