@@ -4,6 +4,7 @@ import eu.bittrade.libs.steemj.SteemJ;
 import eu.bittrade.libs.steemj.base.models.AccountName;
 import eu.bittrade.libs.steemj.base.models.Asset;
 import eu.bittrade.libs.steemj.base.models.Permlink;
+import eu.bittrade.libs.steemj.base.models.operations.ClaimRewardBalanceOperation;
 import eu.bittrade.libs.steemj.base.models.operations.CommentOperation;
 import eu.bittrade.libs.steemj.base.models.operations.TransferOperation;
 import eu.bittrade.libs.steemj.enums.AssetSymbolType;
@@ -14,6 +15,7 @@ import info.smartkit.cloud.streaming.dto.*;
 import info.smartkit.cloud.streaming.services.SteemService;
 import info.smartkit.cloud.streaming.utils.ServerResponseGitlabEvents;
 import info.smartkit.cloud.streaming.utils.ServerResponseSteemPost;
+import info.smartkit.cloud.streaming.utils.ServerResponseSteemReward;
 import info.smartkit.cloud.streaming.utils.TimedResponse;
 import io.swagger.annotations.ApiOperation;
 import org.apache.logging.log4j.LogManager;
@@ -156,13 +158,22 @@ public class SteemController {
 
     @RequestMapping(value = "/claimRewards", method = RequestMethod.POST)
     @ApiOperation(httpMethod = "POST", value = "Response a string describing if the Steem claimRewards is successfully triggled.")
-    public void claimRewards(@RequestBody @Valid String accountName) throws SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException {
+    public CompletableFuture<TimedResponse<ClaimRewardBalanceOperation>> claimRewards(@RequestBody @Valid String accountName) throws SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException {
         //
 
         /*
          * Claim the rewards of the default account.
          */
-        steemService.getSteemJ().claimRewards();
+
+        long start = System.currentTimeMillis();
+        ServerResponseSteemReward response = new ServerResponseSteemReward(Thread.currentThread().getName());
+        return steemService.claimRewards(new AccountName(accountName))
+                .thenApply(award -> {
+                    response.setData(award);
+                    response.setTimeMs(System.currentTimeMillis() - start);
+                    response.setCompletingThread(Thread.currentThread().getName());
+                    return response;
+                });
     }
 
 }

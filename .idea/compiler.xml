@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="RESTfulKafka" target="10" />
+      <module name="RESTfulKafka" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

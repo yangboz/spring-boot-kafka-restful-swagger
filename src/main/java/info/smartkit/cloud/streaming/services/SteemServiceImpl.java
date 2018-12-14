@@ -2,13 +2,13 @@ package info.smartkit.cloud.streaming.services;
 
 import eu.bittrade.libs.steemj.SteemJ;
 import eu.bittrade.libs.steemj.base.models.AccountName;
+import eu.bittrade.libs.steemj.base.models.operations.ClaimRewardBalanceOperation;
 import eu.bittrade.libs.steemj.base.models.operations.CommentOperation;
 import eu.bittrade.libs.steemj.configuration.SteemJConfig;
 import eu.bittrade.libs.steemj.enums.PrivateKeyType;
 import eu.bittrade.libs.steemj.exceptions.SteemCommunicationException;
 import eu.bittrade.libs.steemj.exceptions.SteemInvalidTransactionException;
 import eu.bittrade.libs.steemj.exceptions.SteemResponseException;
-import info.smartkit.cloud.streaming.controllers.SteemController;
 import info.smartkit.cloud.streaming.dto.SteemPost;
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.apache.logging.log4j.LogManager;
@@ -54,7 +54,7 @@ public class SteemServiceImpl implements SteemService{
         myConfig.getPrivateKeyStorage().addAccount(myConfig.getDefaultAccount(), privateKeys);
 
         // Create a new apiWrapper with your config object.
-        steemJ = new SteemJ();
+        this.steemJ = new SteemJ();
         return steemJ;
     }
 
@@ -73,7 +73,7 @@ public class SteemServiceImpl implements SteemService{
 //                        + "https://github.com/marvin-we/steem-java-api-wrapper "
 //                        + "and an image ![SteemJV2Logo](https://imgur.com/bIhZlYT.png).",
 //                new String[] { "test", "dontvote" });
-        CommentOperation myNewPost = getSteemJ().createPost(steemPost.getTitle(), steemPost.getContent(), steemPost.getTags());
+        CommentOperation myNewPost = this.getSteemJ().createPost(steemPost.getTitle(), steemPost.getContent(), steemPost.getTags());
         LOG.info(
                 "SteemJ has generated some additional values for my new post. One good example is the permlink {} that I may need later on.",
                 myNewPost.getPermlink().getLink());
@@ -85,5 +85,11 @@ public class SteemServiceImpl implements SteemService{
         //config at first.
         this.steemJ = configForSteemJ(this.accountName,null);
         return this.steemJ;
+    }
+
+    @Override
+    public CompletableFuture<ClaimRewardBalanceOperation> claimRewards(AccountName accountName) throws SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException {
+        ClaimRewardBalanceOperation claimRewardBalanceOperation = this.getSteemJ().claimRewards(accountName);
+        return CompletableFuture.completedFuture(claimRewardBalanceOperation);
     }
 }

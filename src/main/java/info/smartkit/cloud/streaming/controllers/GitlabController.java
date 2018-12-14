@@ -61,7 +61,12 @@ public class GitlabController {
     @ApiOperation(value = "Response a string describing Gitlab events api.")
 //	@ApiImplicitParams({@ApiImplicitParam(name="Authorization", value="Authorization DESCRIPTION")})
     public @ResponseBody
-    CompletableFuture<TimedResponse<List<org.gitlab4j.api.models.Event>>> events() throws GitLabApiException, SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException, InterruptedException {
+    CompletableFuture<TimedResponse<List<org.gitlab4j.api.models.Event>>> events(boolean withSteemAwards) throws GitLabApiException, SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException, InterruptedException {
+        //
+        if(withSteemAwards){
+
+        }
+
         long start = System.currentTimeMillis();
         ServerResponseGitlabEvents response = new ServerResponseGitlabEvents(Thread.currentThread().getName());
         return gitlabService.getEvents()
@@ -71,6 +76,7 @@ public class GitlabController {
                     response.setCompletingThread(Thread.currentThread().getName());
                     return response;
                 });
+
 //        CompletableFuture.allOf(gitLabConfig,steemJConfig).join();
     }
 
