@@ -15,6 +15,7 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public interface SteemService {
+    String getAccountName();
     SteemJ config(String accountName, List<ImmutablePair<PrivateKeyType, String>> privateKeys) throws SteemResponseException, SteemCommunicationException;
     CompletableFuture<CommentOperation> post(SteemPost steemPost) throws SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException;
     SteemJ getSteemJ() throws SteemResponseException, SteemCommunicationException;

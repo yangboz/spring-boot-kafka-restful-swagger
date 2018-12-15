@@ -2,38 +2,116 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3ef9371-4140-47fe-9f77-f1549e18195b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/utils/ServerResponseSteemReward.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/dto/GitlabIssue.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/utils/ServerResponseGitlabIssue.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_6_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_6_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_6_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_6_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_6_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_6_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_6_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_10.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_10.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/RESTfulKafka.iml" afterPath="$PROJECT_DIR$/RESTfulKafka.iml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/GitlabController.java" afterPath="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/GitlabController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/SteemController.java" afterPath="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/SteemController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/GitlabService.java" afterPath="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/GitlabService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/GitlabServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/GitlabServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/SteemService.java" afterPath="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/SteemService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/SteemServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/SteemServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/Application.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/Application.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/configs/PropertiesInitializer.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/configs/PropertiesInitializer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/configs/SimpleCORSFilter.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/configs/SimpleCORSFilter.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/configs/StaticResourceConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/configs/StaticResourceConfiguration.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/print.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/reset.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/screen.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/typography.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-700.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-700.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-700.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-700.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-700.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/explorer_icons.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/favicon-16x16.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/favicon-32x32.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/logo_small.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pet_store_api.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/throbber.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/wordnik_api.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/backbone-min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/handlebars-2.0.0.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/highlight.7.3.pack.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/jquery-1.8.0.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/jquery.ba-bbq.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/jquery.slideto.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/jquery.wiggle.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/marked.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/swagger-oauth.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/underscore-min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/underscore-min.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/o2c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/oauthcallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/swagger-ui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/swagger-ui.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/RESTfulGitlabKafkaSteem-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/RESTfulGitlabKafkaSteem-0.0.1-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/target/RESTfulGitlabKafkaSteem-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/RESTfulGitlabKafkaSteem-0.0.1-SNAPSHOT.jar.original" />
       <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/controllers/GitlabController.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/controllers/GitlabController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/controllers/KafkaController.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/controllers/KafkaController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/controllers/SteemController.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/controllers/SteemController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/dto/JsonObject.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/dto/JsonObject.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/dto/JsonString.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/dto/JsonString.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/dto/KafkaMessage.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/dto/KafkaMessage.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/dto/SteemComment.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/dto/SteemComment.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/dto/SteemPost.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/dto/SteemPost.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/dto/SteemTransfer.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/dto/SteemTransfer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/dto/SteemVote.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/dto/SteemVote.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/services/GitlabService.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/services/GitlabService.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/services/GitlabServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/services/GitlabServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/services/KafkaService.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/services/KafkaService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/services/KafkaServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/services/KafkaServiceImpl.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/services/SteemService.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/services/SteemService.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/services/SteemServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/services/SteemServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/utils/ServerResponseGitlabEvents.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/utils/ServerResponseGitlabEvents.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/utils/ServerResponseSteemPost.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/utils/ServerResponseSteemPost.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/utils/TimedResponse.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/utils/TimedResponse.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/utils/ServerResponseSteemReward.class" afterPath="$PROJECT_DIR$/target/classes/info/smartkit/cloud/streaming/utils/ServerResponseSteemReward.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/print.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/reset.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/screen.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/typography.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/droid-sans-v6-latin-700.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/droid-sans-v6-latin-700.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/droid-sans-v6-latin-700.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/droid-sans-v6-latin-700.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/droid-sans-v6-latin-700.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/droid-sans-v6-latin-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/droid-sans-v6-latin-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/droid-sans-v6-latin-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/droid-sans-v6-latin-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/droid-sans-v6-latin-regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/explorer_icons.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/favicon-16x16.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/favicon-32x32.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/logo_small.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/pet_store_api.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/throbber.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/wordnik_api.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/backbone-min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/handlebars-2.0.0.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/highlight.7.3.pack.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/jquery-1.8.0.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/jquery.ba-bbq.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/jquery.slideto.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/jquery.wiggle.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/marked.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/swagger-oauth.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/underscore-min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/underscore-min.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/o2c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/oauthcallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger-ui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger-ui.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,51 +123,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SteemController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/SteemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="165" column="11" lean-forward="true" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
+            <state relative-caret-position="315">
+              <caret line="171" column="36" lean-forward="true" selection-start-line="171" selection-start-column="36" selection-end-line="171" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <file leaf-file-name="ServletInvocableHandlerMethod.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="54" lean-forward="true" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+            <state relative-caret-position="300">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="swagger-ui.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/swagger-ui.js">
+      <file leaf-file-name="RequestMappingHandlerAdapter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AsynchConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/configs/AsynchConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SwaggerConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/configs/SwaggerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+            <state relative-caret-position="124">
+              <caret line="486" column="0" lean-forward="false" selection-start-line="486" selection-start-column="0" selection-end-line="486" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,54 +166,58 @@
       <file leaf-file-name="GitlabController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/GitlabController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="72" column="33" lean-forward="false" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="33" />
+            <state relative-caret-position="15">
+              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SteemService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/SteemService.java">
+      <file leaf-file-name="GitlabServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/GitlabServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerResponseSteemReward.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/utils/ServerResponseSteemReward.java">
+      <file leaf-file-name="AbstractHandlerMethodAdapter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="82" lean-forward="false" selection-start-line="2" selection-start-column="82" selection-end-line="2" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="345">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SteemServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/SteemServiceImpl.java">
+      <file leaf-file-name="DispatcherServlet.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="92" column="78" lean-forward="true" selection-start-line="92" selection-start-column="78" selection-end-line="92" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="124">
+              <caret line="422" column="0" lean-forward="false" selection-start-line="422" selection-start-column="0" selection-end-line="422" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KafkaServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/KafkaServiceImpl.java">
+      <file leaf-file-name="FrameworkServlet.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="124">
+              <caret line="426" column="0" lean-forward="false" selection-start-line="426" selection-start-column="0" selection-end-line="426" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JdkDynamicAopProxy.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.6.RELEASE/spring-aop-5.0.6.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -184,7 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/configs/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/dto/JsonObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/dto/KafkaMessage.java" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -200,18 +271,21 @@
         <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/KafkaController.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/utils/ClientResponse.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/GitlabServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/GitlabService.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/utils/TimedResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/utils/ServerResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/utils/ServerResponseSteemPost.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
-        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/GitlabController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/SteemService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/SteemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/SteemController.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/utils/ServerResponseSteemReward.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/configs/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/SteemController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/GitlabService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/SteemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/SteemService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/utils/ServerResponseGitlabIssue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/dto/GitlabIssue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/GitlabController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/GitlabServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -303,6 +377,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="streaming" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RESTfulKafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-kafka-restful-swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RESTfulKafka" type="b2602c69:ProjectViewProjectNode" />
@@ -501,19 +584,18 @@
       <workItem from="1543815174251" duration="14698000" />
       <workItem from="1543910380577" duration="34338000" />
       <workItem from="1544191011168" duration="6000" />
-      <workItem from="1544757632673" duration="3215000" />
+      <workItem from="1544757632673" duration="18536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71514000" />
+    <option name="totallyTimeSpent" value="86835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="117" width="1729" height="839" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31854838" sideWeight="0.50918794" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31854838" sideWeight="0.5186722" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -522,17 +604,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39919356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39919356" sideWeight="0.49318317" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32258064" sideWeight="0.4979253" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32258064" sideWeight="0.48606995" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33870968" sideWeight="0.4979253" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31854838" sideWeight="0.4908121" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.4979253" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33870968" sideWeight="0.4813278" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.4979253" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31854838" sideWeight="0.4813278" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2614108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -557,48 +639,60 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/GitlabController.java</url>
-          <line>83</line>
+          <line>132</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/GitlabController.java</url>
-          <line>111</line>
+          <line>160</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/GitlabController.java</url>
-          <line>94</line>
+          <line>143</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/GitlabController.java</url>
-          <line>118</line>
+          <line>193</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/GitlabController.java</url>
-          <line>105</line>
+          <line>154</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/GitlabController.java</url>
-          <line>97</line>
+          <line>146</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/GitlabController.java</url>
-          <line>116</line>
+          <line>191</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/GitlabController.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/GitlabServiceImpl.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -642,385 +736,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/gitlab4j/gitlab4j-api/4.8.56/gitlab4j-api-4.8.56.jar!/org/gitlab4j/api/models/Event.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/SteemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="24" column="60" lean-forward="true" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="585">
-            <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/dto/JsonString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="108" column="20" lean-forward="false" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/gitlab4j/gitlab4j-api/4.8.56/gitlab4j-api-4.8.56.jar!/org/gitlab4j/api/models/Event.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/dto/JsonString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="193">
-            <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/dto/SteemPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/dto/SteemVote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="28" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/muksihs/steemj-core/0.5.0-SNAPSHOT/steemj-core-0.5.0-SNAPSHOT-sources.jar!/eu/bittrade/libs/steemj/enums/PrivateKeyType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/dto/SteemComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/GitlabEvents.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="90" column="22" lean-forward="true" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/dto/KafkaMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/KafkaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/GitlabService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/dto/SteemTransfer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/KafkaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.6.RELEASE/spring-aop-5.0.6.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.6.RELEASE/spring-aop-5.0.6.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/web/context/request/async/WebAsyncManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="200" column="0" lean-forward="false" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE.jar!/org/springframework/context/i18n/LocaleContextHolder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.4.10.v20180503/jetty-servlet-9.4.10.v20180503.jar!/org/eclipse/jetty/servlet/ServletHolder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="616" column="0" lean-forward="false" selection-start-line="616" selection-start-column="0" selection-end-line="616" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="419" column="0" lean-forward="false" selection-start-line="419" selection-start-column="0" selection-end-line="419" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="424" column="0" lean-forward="false" selection-start-line="424" selection-start-column="0" selection-end-line="424" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <marker date="1543291465652" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1543291465652" expanded="false" signature="162:753" ph="..." />
-            <marker date="1543291465652" expanded="false" signature="1161:1172" ph=" { " />
-            <marker date="1543291465652" expanded="false" signature="1193:1199" ph=" }" />
-            <marker date="1543291465652" expanded="false" signature="1262:1273" ph=" { " />
-            <marker date="1543291465652" expanded="false" signature="1293:1299" ph=" }" />
-            <marker date="1543291465652" expanded="true" signature="1421:1477" ph="{...}" />
-            <marker date="1543291465652" expanded="true" signature="1556:1615" ph="{...}" />
-            <marker date="1543291465652" expanded="true" signature="1725:1784" ph="{...}" />
-            <marker date="1543291465652" expanded="true" signature="1878:1949" ph="{...}" />
-            <marker date="1543291465652" expanded="true" signature="2113:2718" ph="{...}" />
-            <marker date="1543291465652" expanded="true" signature="2878:4227" ph="{...}" />
-            <marker date="1543291465652" expanded="true" signature="4306:4483" ph="{...}" />
-            <marker date="1543291465652" expanded="true" signature="4603:5061" ph="{...}" />
-            <marker date="1543291465652" expanded="true" signature="5126:6283" ph="{...}" />
-            <marker date="1543291465652" expanded="true" signature="6368:6964" ph="{...}" />
-            <marker date="1543291465652" expanded="true" signature="7047:7618" ph="{...}" />
-            <marker date="1543291465652" expanded="true" signature="7678:8011" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <marker date="1543291500250" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1543291500250" expanded="false" signature="177:1388" ph="..." />
-            <marker date="1543291500250" expanded="false" signature="1736:1747" ph=" { " />
-            <marker date="1543291500250" expanded="false" signature="1770:1776" ph=" }" />
-            <marker date="1543291500250" expanded="false" signature="1847:1858" ph=" { " />
-            <marker date="1543291500250" expanded="false" signature="1879:1885" ph=" }" />
-            <marker date="1543291500250" expanded="true" signature="2001:2064" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="2205:3295" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="3381:3970" ph="{...}" />
-            <marker date="1543291500250" expanded="false" signature="4042:4053" ph=" { " />
-            <marker date="1543291500250" expanded="false" signature="4087:4093" ph=" }" />
-            <marker date="1543291500250" expanded="true" signature="4195:4513" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="4585:4755" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="4838:6528" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="5017:5341" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="5462:5642" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="5687:5965" ph="{...}" />
-            <marker date="1543291500250" expanded="false" signature="6012:6027" ph=" { " />
-            <marker date="1543291500250" expanded="false" signature="6060:6070" ph=" }" />
-            <marker date="1543291500250" expanded="true" signature="6163:6327" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="6414:6522" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="6616:8127" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="6803:7488" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="6829:7176" ph="{...}" />
-            <marker date="1543291500250" expanded="false" signature="7527:7542" ph=" { " />
-            <marker date="1543291500250" expanded="false" signature="7598:7608" ph=" }" />
-            <marker date="1543291500250" expanded="false" signature="7689:7704" ph=" { " />
-            <marker date="1543291500250" expanded="false" signature="7727:7737" ph=" }" />
-            <marker date="1543291500250" expanded="true" signature="7824:7926" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="8019:8121" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5835">
-          <caret line="486" column="0" lean-forward="false" selection-start-line="486" selection-start-column="0" selection-end-line="486" selection-end-column="0" />
-          <folding>
-            <marker date="1543291500250" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1543291500250" expanded="false" signature="177:5031" ph="..." />
-            <marker date="1543291500250" expanded="true" signature="7460:7548" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="7625:7789" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="7834:8345" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="8455:8520" ph="{...}" />
-            <marker date="1543291500250" expanded="false" signature="8611:8622" ph=" { " />
-            <marker date="1543291500250" expanded="false" signature="8658:8664" ph=" }" />
-            <marker date="1543291500250" expanded="true" signature="8768:9038" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="9124:9225" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="9339:9639" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="9735:9856" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="9972:10041" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="10137:10191" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="10301:10582" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="10672:10776" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="10879:10946" ph="{...}" />
-            <marker date="1543291500250" expanded="false" signature="11026:11037" ph=" { " />
-            <marker date="1543291500250" expanded="false" signature="11071:11077" ph=" }" />
-            <marker date="1543291500250" expanded="true" signature="11177:11252" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="11340:11399" ph="{...}" />
-            <marker date="1543291500250" expanded="false" signature="11464:11475" ph=" { " />
-            <marker date="1543291500250" expanded="false" signature="11505:11511" ph=" }" />
-            <marker date="1543291500250" expanded="true" signature="11603:11732" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="11830:11961" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="12059:12126" ph="{...}" />
-            <marker date="1543291500250" expanded="false" signature="12201:12212" ph=" { " />
-            <marker date="1543291500250" expanded="false" signature="12246:12252" ph=" }" />
-            <marker date="1543291500250" expanded="false" signature="12317:12328" ph=" { " />
-            <marker date="1543291500250" expanded="false" signature="12361:12367" ph=" }" />
-            <marker date="1543291500250" expanded="false" signature="12421:12432" ph=" { " />
-            <marker date="1543291500250" expanded="false" signature="12467:12473" ph=" }" />
-            <marker date="1543291500250" expanded="true" signature="12565:12701" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="12805:12959" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="12965:12983" ph="/**...*/" />
-            <marker date="1543291500250" expanded="true" signature="13078:13142" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="13236:13307" ph="{...}" />
-            <marker date="1543291500250" expanded="false" signature="13372:13383" ph=" { " />
-            <marker date="1543291500250" expanded="false" signature="13419:13425" ph=" }" />
-            <marker date="1543291500250" expanded="true" signature="13513:13594" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="13682:13749" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="13855:13958" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="14030:14095" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="14189:14260" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="14318:14467" ph="{...}" />
-            <marker date="1543291500250" expanded="false" signature="14537:14548" ph=" { " />
-            <marker date="1543291500250" expanded="false" signature="14572:14578" ph=" }" />
-            <marker date="1543291500250" expanded="true" signature="14617:15398" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="15445:18044" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="18124:20370" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="20460:21584" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="21668:23348" ph="{...}" />
-            <marker date="1543291500250" expanded="false" signature="23417:23428" ph=" { " />
-            <marker date="1543291500250" expanded="false" signature="23440:23446" ph=" }" />
-            <marker date="1543291500250" expanded="true" signature="23594:24588" ph="{...}" />
-            <marker date="1543291500250" expanded="false" signature="24689:24700" ph=" { " />
-            <marker date="1543291500250" expanded="false" signature="24711:24717" ph=" }" />
-            <marker date="1543291500250" expanded="true" signature="24813:25626" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="25793:28526" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="28630:28702" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="28810:30165" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="29390:29797" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="30287:30673" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="30775:31974" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="31242:31636" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="32062:32527" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="32656:32763" ph="{...}" />
-            <marker date="1543291500250" expanded="true" signature="32929:33846" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/GitlabServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/utils/TimedResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1045,14 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/utils/ServerResponseSteemPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/muksihs/steemj-core/0.5.0-SNAPSHOT/steemj-core-0.5.0-SNAPSHOT-sources.jar!/eu/bittrade/libs/steemj/SteemJ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1061,54 +768,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/utils/ServerResponseGitlabEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/GitlabController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="72" column="33" lean-forward="false" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/SteemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="92" column="78" lean-forward="true" selection-start-line="92" selection-start-column="78" selection-end-line="92" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/KafkaServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/SteemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/SteemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="165" column="11" lean-forward="true" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1121,18 +784,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/configs/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="54" lean-forward="true" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+          <caret line="2" column="54" lean-forward="false" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -1145,13 +800,374 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/configs/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="98" column="21" lean-forward="false" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/utils/ServerResponseSteemReward.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/utils/ServerResponseSteemPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="75" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="75" />
+          <folding>
+            <element signature="e#271#272#0" expanded="false" />
+            <element signature="e#303#304#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/SteemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="21" column="87" lean-forward="false" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/utils/ServerResponseGitlabEvents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/utils/ServerResponseGitlabIssue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/KafkaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="37" column="69" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/GitlabService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/gitlab4j/gitlab4j-api/4.8.56/gitlab4j-api-4.8.56.jar!/org/gitlab4j/api/IssuesApi.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="105" column="17" lean-forward="false" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/dto/JsonObject.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="82" lean-forward="false" selection-start-line="2" selection-start-column="82" selection-end-line="2" selection-end-column="82" />
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/dto/KafkaMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/dto/SteemComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/dto/GitlabIssue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/GitlabEvents.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="90" column="22" lean-forward="true" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/web/util/NestedServletException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.4.10.v20180503/jetty-servlet-9.4.10.v20180503.jar!/org/eclipse/jetty/servlet/ServletHolder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="617" column="0" lean-forward="false" selection-start-line="617" selection-start-column="0" selection-end-line="617" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.0.2.RELEASE/spring-boot-actuator-2.0.2.RELEASE.jar!/org/springframework/boot/actuate/metrics/web/servlet/WebMvcMetricsFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.0.2.RELEASE/spring-boot-actuator-2.0.2.RELEASE.jar!/org/springframework/boot/actuate/web/trace/servlet/HttpTraceFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/web/filter/RequestContextFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-security/9.4.10.v20180503/jetty-security-9.4.10.v20180503.jar!/org/eclipse/jetty/security/SecurityHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="416" column="0" lean-forward="false" selection-start-line="416" selection-start-column="0" selection-end-line="416" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.4.10.v20180503/jetty-servlet-9.4.10.v20180503.jar!/org/eclipse/jetty/servlet/ServletHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="373" column="0" lean-forward="false" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.4.10.v20180503/jetty-server-9.4.10.v20180503.jar!/org/eclipse/jetty/server/session/SessionHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="776" column="156" lean-forward="false" selection-start-line="776" selection-start-column="156" selection-end-line="776" selection-end-column="156" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.4.10.v20180503/jetty-server-9.4.10.v20180503.jar!/org/eclipse/jetty/server/handler/ContextHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="835" column="0" lean-forward="false" selection-start-line="835" selection-start-column="0" selection-end-line="835" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.4.10.v20180503/jetty-server-9.4.10.v20180503.jar!/org/eclipse/jetty/server/HttpChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="272" column="0" lean-forward="false" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.4.10.v20180503/jetty-server-9.4.10.v20180503.jar!/org/eclipse/jetty/server/HttpConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/9.4.10.v20180503/jetty-io-9.4.10.v20180503.jar!/org/eclipse/jetty/io/AbstractConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
+          <folding>
+            <element signature="e#5567#5568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/9.4.10.v20180503/jetty-io-9.4.10.v20180503.jar!/org/eclipse/jetty/io/FillInterest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/9.4.10.v20180503/jetty-io-9.4.10.v20180503.jar!/org/eclipse/jetty/io/ChannelEndPoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#1735#1736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/9.4.10.v20180503/jetty-util-9.4.10.v20180503.jar!/org/eclipse/jetty/util/thread/QueuedThreadPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding>
+            <element signature="e#21935#21936#0" expanded="true" />
+            <element signature="e#21960#21961#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/SteemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.6.RELEASE/spring-aop-5.0.6.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="195" column="0" lean-forward="false" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.6.RELEASE/spring-aop-5.0.6.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="486" column="0" lean-forward="false" selection-start-line="486" selection-start-column="0" selection-end-line="486" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="422" column="0" lean-forward="false" selection-start-line="422" selection-start-column="0" selection-end-line="422" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="426" column="0" lean-forward="false" selection-start-line="426" selection-start-column="0" selection-end-line="426" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/SteemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="171" column="36" lean-forward="true" selection-start-line="171" selection-start-column="36" selection-end-line="171" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/controllers/GitlabController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/cloud/streaming/services/GitlabServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

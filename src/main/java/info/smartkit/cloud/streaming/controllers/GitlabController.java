@@ -2,26 +2,33 @@ package info.smartkit.cloud.streaming.controllers;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import eu.bittrade.libs.steemj.base.models.AccountName;
 import eu.bittrade.libs.steemj.exceptions.SteemCommunicationException;
 import eu.bittrade.libs.steemj.exceptions.SteemInvalidTransactionException;
 import eu.bittrade.libs.steemj.exceptions.SteemResponseException;
+import info.smartkit.cloud.streaming.dto.GitlabIssue;
 import info.smartkit.cloud.streaming.dto.JsonString;
+import info.smartkit.cloud.streaming.dto.KafkaMessage;
 import info.smartkit.cloud.streaming.dto.SteemPost;
 import info.smartkit.cloud.streaming.services.GitlabService;
 import info.smartkit.cloud.streaming.services.SteemService;
 import info.smartkit.cloud.streaming.utils.ServerResponseGitlabEvents;
+import info.smartkit.cloud.streaming.utils.ServerResponseGitlabIssue;
+import info.smartkit.cloud.streaming.utils.ServerResponseSteemPost;
 import info.smartkit.cloud.streaming.utils.TimedResponse;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.gitlab4j.api.GitLabApi;
 import org.gitlab4j.api.GitLabApiException;
+import org.gitlab4j.api.models.Event;
+import org.gitlab4j.api.models.Issue;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import sun.security.ec.ECDHKeyAgreement;
 
+import javax.validation.Valid;
 import java.text.MessageFormat;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -61,11 +68,10 @@ public class GitlabController {
     @ApiOperation(value = "Response a string describing Gitlab events api.")
 //	@ApiImplicitParams({@ApiImplicitParam(name="Authorization", value="Authorization DESCRIPTION")})
     public @ResponseBody
-    CompletableFuture<TimedResponse<List<org.gitlab4j.api.models.Event>>> events(boolean withSteemAwards) throws GitLabApiException, SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException, InterruptedException {
-        //
-        if(withSteemAwards){
-
-        }
+    CompletableFuture<TimedResponse<List<org.gitlab4j.api.models.Event>>> events(
+//            @ApiParam(required = false, name = "withSteemPost", value = "with Steem Post behavior?", defaultValue = "0"),
+//            @ApiParam(required = false, name = "withSteemAwards", value = "with Steem Claim Awards behavior?", defaultValue = "0"),
+            boolean withSteemPost, boolean withSteemAwards) throws GitLabApiException, SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException, InterruptedException {
 
         long start = System.currentTimeMillis();
         ServerResponseGitlabEvents response = new ServerResponseGitlabEvents(Thread.currentThread().getName());
@@ -74,13 +80,56 @@ public class GitlabController {
                     response.setData(events);
                     response.setTimeMs(System.currentTimeMillis() - start);
                     response.setCompletingThread(Thread.currentThread().getName());
+                    //
+//                    if(withSteemPost){
+//                        try {
+//                            this.steemPosting(events, withSteemAwards);
+//                        } catch (SteemResponseException e) {
+//                            e.printStackTrace();
+//                        } catch (SteemCommunicationException e) {
+//                            e.printStackTrace();
+//                        } catch (SteemInvalidTransactionException e) {
+//                            e.printStackTrace();
+//                        }
+//                    }
                     return response;
                 });
 
 //        CompletableFuture.allOf(gitLabConfig,steemJConfig).join();
     }
 
-    private void steemPosting(List<org.gitlab4j.api.models.Event> events) throws SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException {
+    @RequestMapping(method = RequestMethod.POST, value = "/issue")
+    @ApiOperation(value = "Response a string describing Gitlab events api.")
+//	@ApiImplicitParams({@ApiImplicitParam(name="Authorization", value="Authorization DESCRIPTION")})
+    public @ResponseBody
+    CompletableFuture<TimedResponse<Issue>> issue(
+
+            @RequestBody @Valid GitlabIssue gitlabIssue) throws GitLabApiException, SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException, InterruptedException {
+
+        long start = System.currentTimeMillis();
+        ServerResponseGitlabIssue response = new ServerResponseGitlabIssue(Thread.currentThread().getName());
+        return gitlabService.createIssue(gitlabIssue.getProjectId(), gitlabIssue.getTitle(), gitlabIssue.getDescription())
+                .thenApply(events -> {
+                    response.setData(events);
+                    response.setTimeMs(System.currentTimeMillis() - start);
+                    response.setCompletingThread(Thread.currentThread().getName());
+                    //
+//                    if(withSteemPost){
+//                        try {
+//                            this.steemPosting(events, withSteemAwards);
+//                        } catch (SteemResponseException e) {
+//                            e.printStackTrace();
+//                        } catch (SteemCommunicationException e) {
+//                            e.printStackTrace();
+//                        } catch (SteemInvalidTransactionException e) {
+//                            e.printStackTrace();
+//                        }
+//                    }
+                    return response;
+                });
+    }
+
+    private CompletableFuture<ServerResponseSteemPost> steemPosting(List<Event> events, boolean withSteemAwards) throws SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException {
         LOGGER.info(events.toString());
         // Iterate through the pages and print out the name and description
         ObjectMapper mapper = new ObjectMapper();
@@ -109,9 +158,35 @@ public class GitlabController {
 //                    steemPost.setContent(event.getData().toString());
 //                }
 //                steemPost.setTags(new String[]{event.getAuthorUsername(), event.getTargetTitle(), event.getActionName()});
-                steemService.post(steemPost);
+//                steemService.post(steemPost);
+            long start = System.currentTimeMillis();
+            ServerResponseSteemPost response = new ServerResponseSteemPost(Thread.currentThread().getName());
+            return steemService.post(steemPost)
+                    .thenApply(results -> {
+                        response.setData(results);
+                        response.setTimeMs(System.currentTimeMillis() - start);
+                        response.setCompletingThread(Thread.currentThread().getName());
+                        //
+//                        if(withSteemAwards){
+//                            try {
+//                                steemService.claimRewards(new AccountName(this.steemService.getAccountName()))
+//                                        .thenApply(claimRewardsResults -> {
+//                                    try {
+//                                        gitlabService.createIssue(event.getProjectId(), results.getTitle(), results.getBody());
+//                                    } catch (GitLabApiException e) {
+//                                        e.printStackTrace();
+//                                    }
+//                                    return null;
+//                                });
+//                            } catch (Exception e) {
+//                                e.printStackTrace();
+//                            }
+//                        }
+                        return response;
+                    });
         }
-
+//
+        return null;
     }
     private String who_when_where_what_how_howmuch(String who, String when, String where, String what, String how, String howmuch){
         Object[] args = {who, when, where, what, how, howmuch};

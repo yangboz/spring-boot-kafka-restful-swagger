@@ -3,7 +3,9 @@ package info.smartkit.cloud.streaming.services;
 import eu.bittrade.libs.steemj.SteemJ;
 import org.gitlab4j.api.GitLabApi;
 import org.gitlab4j.api.GitLabApiException;
+import org.gitlab4j.api.IssuesApi;
 import org.gitlab4j.api.models.Event;
+import org.gitlab4j.api.models.Issue;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
@@ -15,10 +17,6 @@ import static org.gitlab4j.api.Constants.SortOrder.DESC;
 
 @Service
 public class GitlabServiceImpl implements GitlabService {
-
-    public GitLabApi getGitLabApi() {
-        return gitLabApi;
-    }
 
     private GitLabApi gitLabApi;
 
@@ -39,5 +37,12 @@ public class GitlabServiceImpl implements GitlabService {
         Date before = new Date(); // Before now
         List<org.gitlab4j.api.models.Event> events = gitLabApi.getEventsApi().getAuthenticatedUserEvents(null, null, before, after, DESC);
         return CompletableFuture.completedFuture(events);
+    }
+
+    @Override
+    public CompletableFuture<Issue> createIssue(Integer projectId, String title, String description) throws GitLabApiException {
+        IssuesApi issuesApi = this.gitLabApi.getIssuesApi();
+        Issue issue = issuesApi.createIssue(projectId, title , description);
+        return CompletableFuture.completedFuture(issue);
     }
 }

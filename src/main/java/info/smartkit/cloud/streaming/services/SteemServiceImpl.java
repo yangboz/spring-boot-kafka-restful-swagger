@@ -25,6 +25,11 @@ public class SteemServiceImpl implements SteemService{
     private static org.apache.logging.log4j.Logger LOG = LogManager.getLogger(SteemServiceImpl.class);
 
     private SteemJ steemJ;
+
+    public String getAccountName() {
+        return accountName;
+    }
+
     private String accountName="lorechain";//default testing account;
 
     @Override

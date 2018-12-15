@@ -159,12 +159,9 @@ public class SteemController {
     @RequestMapping(value = "/claimRewards", method = RequestMethod.POST)
     @ApiOperation(httpMethod = "POST", value = "Response a string describing if the Steem claimRewards is successfully triggled.")
     public CompletableFuture<TimedResponse<ClaimRewardBalanceOperation>> claimRewards(@RequestBody @Valid String accountName) throws SteemResponseException, SteemCommunicationException, SteemInvalidTransactionException {
-        //
-
         /*
          * Claim the rewards of the default account.
          */
-
         long start = System.currentTimeMillis();
         ServerResponseSteemReward response = new ServerResponseSteemReward(Thread.currentThread().getName());
         return steemService.claimRewards(new AccountName(accountName))

@@ -3,6 +3,7 @@
 /Users/yangboz/git/spring-boot-kafka-restful-swagger/src/main/java/info/smartkit/cloud/streaming/configs/SwaggerConfig.java
 /Users/yangboz/git/spring-boot-kafka-restful-swagger/src/main/java/info/smartkit/cloud/streaming/configs/SimpleCORSFilter.java
 /Users/yangboz/git/spring-boot-kafka-restful-swagger/src/main/java/info/smartkit/cloud/streaming/configs/StaticResourceConfiguration.java
+/Users/yangboz/git/spring-boot-kafka-restful-swagger/src/main/java/info/smartkit/cloud/streaming/utils/ServerResponseSteemReward.java
 /Users/yangboz/git/spring-boot-kafka-restful-swagger/src/main/java/info/smartkit/cloud/streaming/utils/ClientResponse.java
 /Users/yangboz/git/spring-boot-kafka-restful-swagger/src/main/java/info/smartkit/cloud/streaming/controllers/SteemController.java
 /Users/yangboz/git/spring-boot-kafka-restful-swagger/src/main/java/info/smartkit/cloud/streaming/dto/JsonString.java
